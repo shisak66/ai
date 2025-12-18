@@ -67,9 +67,9 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Configuration
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-DEVELOPER_CHAT_ID = os.getenv("DEVELOPER_CHAT_ID", "YOUR_CHAT_ID_HERE")
+TELEGRAM_BOT_TOKEN = os.getenv("8225301056:AAG0sTxGOlSfsEo4i8BriddjkazE51w1VvI")
+GEMINI_API_KEY = os.getenv("sk-6926705885c34efcb2d7a1b0cd9b298e")
+DEVELOPER_CHAT_ID = os.getenv("1451422178", "1451422178)
 
 # Configure Gemini AI
 genai.configure(api_key=GEMINI_API_KEY)
